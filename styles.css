@@ -5,13 +5,21 @@ body {
   line-height: 1.6;
   max-width: 800px;
   margin: 40px auto;
-  padding: 0 20px;
-  background-color: #fdf6e3; /* light tan */
-  color: #333;
+  padding: 20px;
+  background-color: #d2b48c; /* dark tan */
+  color: #222;
+}
+
+/* Add a light panel for readability */
+.container {
+  background: #fdf6e3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 h1, h2 {
-  color: #444;
+  color: #3a2c1a;
 }
 
 ul {
@@ -22,5 +30,5 @@ ul {
   margin: 1em 0;
   padding: 0.5em;
   background: #fff8e7;
-  border-left: 4px solid #d9b382;
+  border-left: 4px solid #b5895c;
 }
