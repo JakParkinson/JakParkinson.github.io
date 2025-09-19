@@ -6,26 +6,34 @@ title: Jekyll Demo
 <!-- Load MathJax for this page -->
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-# Welcome to My Jekyll Page
+<!-- Reuse your site's CSS so this page matches index.html -->
+<link rel="stylesheet" href="styles.css" />
 
-This page is written in **Markdown**.
+<!-- Optional: back link -->
+<p><a href="index.html">← Back to Home (HTML version)</a></p>
 
-Inline math (either style works): $E = mc^2$ or \( E = mc^2 \)
+<div class="container">
+<h1>Welcome to My Jekyll Page</h1>
 
-Block math (pick one style):
+<p>This page is written in <strong>Markdown</strong> but styled to match your HTML page.</p>
+
+<h2>Inline & Block Math</h2>
+
+<p>Inline: 
+  
+  $E = mc^2$
+  
+  or \( E = mc^2 \)</p>
+
+<p>Block:</p>
 
 $$
 \int_{-\infty}^{\infty} e^{-x^2}\, dx = \sqrt{\pi}
 $$
 
-or
-
-\[
-\int_{-\infty}^{\infty} e^{-x^2}\, dx = \sqrt{\pi}
-\]
-
-## Bullet Points
+<h2>Bullet Points</h2>
 
 - Easier to type than HTML
 - Uses Markdown + LaTeX
-- GitHub Pages + Jekyll builds it automatically
+- Styled with your <code>styles.css</code>
+</div>
