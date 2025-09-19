@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: #fdf6e3; /* light tan */
+  color: #333;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+ul {
+  margin-top: 0.5em;
+}
+
+.equation {
+  margin: 1em 0;
+  padding: 0.5em;
+  background: #fff8e7;
+  border-left: 4px solid #d9b382;
+}
